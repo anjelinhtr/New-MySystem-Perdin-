@@ -6,6 +6,10 @@
    <elementGuidId>452dfe2d-6e3a-479e-8dac-4f9a9da2eed9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'main_cbsm' and @type = 'checkbox' and @name = 'ctl00$main$cbsm']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#main_cbsm</value>
       </entry>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e415d606-bd07-4e70-abc8-39b29920e329</webElementGuid>
+      <webElementGuid>083173a6-6406-48eb-87d1-7a18aad80c93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>main_cbsm</value>
-      <webElementGuid>d7135b88-e1df-4f00-bf66-4304faf52bb8</webElementGuid>
+      <webElementGuid>d517697f-cf93-495e-b9a5-67fadff99707</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>0c205d11-9409-44c7-a901-1278c312c2a3</webElementGuid>
+      <webElementGuid>b76a53b9-beda-4b25-b6bd-01eaca7265e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ctl00$main$cbsm</value>
-      <webElementGuid>eed7b177-d38b-483e-a3ec-b8c4573746af</webElementGuid>
+      <webElementGuid>dde3a2a8-1a3a-4814-bb3b-0862ea5bf6e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>javascript:setTimeout('__doPostBack(\'ctl00$main$cbsm\',\'\')', 0)</value>
-      <webElementGuid>f59e0178-9605-4370-aefa-3bcd50981892</webElementGuid>
+      <webElementGuid>441f6f94-383e-4b46-9370-98882983b45e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main_cbsm&quot;)</value>
-      <webElementGuid>f45a9607-7750-474c-8679-f196f6bd86ee</webElementGuid>
+      <webElementGuid>9d05ee49-9c3b-462e-adb2-d73ebf427721</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='main_cbsm']</value>
-      <webElementGuid>0dc18d97-577d-4804-b2aa-3ea3af848d59</webElementGuid>
+      <webElementGuid>b642e754-3f0a-4ba6-a89f-15b80a4344eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='form2']/div[3]/div[3]/div/section[2]/div/div[2]/div[2]/div/div[5]/div/input[3]</value>
-      <webElementGuid>40e56558-48c0-489f-9166-1aba2256e854</webElementGuid>
+      <webElementGuid>fb1a6b9a-c100-4807-ab80-ea9800078b2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/input[3]</value>
-      <webElementGuid>86a4ec51-b5ab-4236-ac7a-3a8318b9ffb7</webElementGuid>
+      <webElementGuid>013aa4d9-59d7-4422-9cef-9bdfa43d9467</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'main_cbsm' and @type = 'checkbox' and @name = 'ctl00$main$cbsm']</value>
-      <webElementGuid>daeda38e-59f7-40b6-8182-e404574073d6</webElementGuid>
+      <webElementGuid>fe87653d-d49d-4f6d-88ed-6cd1b313ce9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
