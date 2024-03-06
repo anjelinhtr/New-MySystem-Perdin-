@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Keperluan-Lain-Lain</name>
+   <tag></tag>
+   <elementGuidId>6cd8b66c-387a-4b5d-b0a0-cffc19666762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[.='Lain-lain']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>479db7c6-490e-4600-8cdb-a720fcb85771</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709009883024</value>
+      <webElementGuid>7ac756c0-b720-45ba-a78d-e4cb24227499</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

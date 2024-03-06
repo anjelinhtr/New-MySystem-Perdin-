@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>f38a0ef4-dce4-467a-bf6d-646d59303c75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Expand &quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='TreeView1n1']/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>cabe9ef3-bc66-4860-a4e8-efde98c47ace</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/NewMysystemEfan/WebResource.axd?d=V4jZQ5INloX8_sbez5sDtDY6SIGE9i0-T5RbDt_UYAc2Nt8wV45JC5kj55eYpxefSlTarg-DN_Wa7Z0K0Z7-4GzG77aN0yt8WUnbLJbnsj81&amp;t=637823617705833095</value>
+      <webElementGuid>fa41c84c-c10e-4ef2-928e-25c94c234ea6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Expand </value>
+      <webElementGuid>d663cf11-fc24-4a0e-af87-90913955d2e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;TreeView1n1&quot;)/img[1]</value>
+      <webElementGuid>c4ac20c9-c7bc-4ac9-a5a7-af48481111d5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='TreeView1n1']/img</value>
+      <webElementGuid>2f53b877-1fcc-40d9-9458-85118c316fce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Expand ']</value>
+      <webElementGuid>8dfae631-7cc9-40c6-974c-5df48c8ec0d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a/img</value>
+      <webElementGuid>c923f4b5-119e-4a72-95e4-b9fd8f26f119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/NewMysystemEfan/WebResource.axd?d=V4jZQ5INloX8_sbez5sDtDY6SIGE9i0-T5RbDt_UYAc2Nt8wV45JC5kj55eYpxefSlTarg-DN_Wa7Z0K0Z7-4GzG77aN0yt8WUnbLJbnsj81&amp;t=637823617705833095' and @alt = 'Expand ']</value>
+      <webElementGuid>807db4a7-df5b-4716-b5fa-2771a588d8aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

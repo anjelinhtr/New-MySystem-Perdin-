@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BBM-1000</name>
+   <tag></tag>
+   <elementGuidId>f0b66c55-1bfa-4bb3-b01c-780a4e8e66d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>[value='1000']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[.='1000']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>[value='1000']</value>
+      <webElementGuid>294324f3-8e07-47a0-90b8-7d14a2f249b0</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

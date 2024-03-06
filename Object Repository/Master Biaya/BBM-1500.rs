@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BBM-1500</name>
+   <tag></tag>
+   <elementGuidId>4e6fabd9-df9b-45d7-92d2-f822365b998e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[.='1500']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>[value='1500']</value>
+      <webElementGuid>cc76f5ba-7d1d-4e0d-a6bc-8afd6679c437</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

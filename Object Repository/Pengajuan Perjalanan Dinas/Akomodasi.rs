@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Akomodasi</name>
+   <tag></tag>
+   <elementGuidId>6d93fece-626b-4167-9b8f-6b16ef0c6e62</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#main_ddlakomodasi</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='main_ddlakomodasi']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>37adcdc6-5d89-4a9b-8bbb-147c519ba654</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$main$ddlakomodasi</value>
+      <webElementGuid>45e23d0e-0f70-42a9-9ba9-d68f75904624</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>main_ddlakomodasi</value>
+      <webElementGuid>17b40cba-24d4-44ec-bd3a-84348b6e8e54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>232c8914-7bf1-4586-9a43-3fa4fcb32147</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	- Select One -
+	Hotel
+	Kost
+	Lainnya
+
+</value>
+      <webElementGuid>2e337a35-417d-458a-88d5-9bbe23b2a5e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main_ddlakomodasi&quot;)</value>
+      <webElementGuid>a2559e75-9ed4-471f-9ff6-89269fb3411b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='main_ddlakomodasi']</value>
+      <webElementGuid>6539137e-938a-4b03-8e11-dfc37c4c8d19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form2']/div[3]/div[3]/div/section[2]/div/div[2]/div[4]/div[3]/div/select</value>
+      <webElementGuid>3ae6a3db-0ded-4d5d-baf1-31341a81bc91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akomodasi'])[1]/following::select[1]</value>
+      <webElementGuid>1903bd34-dfc7-4ef4-bfd7-89666f6cda2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transportasi'])[1]/following::select[2]</value>
+      <webElementGuid>fe9f4d23-444f-47b8-97bb-458584f1e85b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atas Nama'])[1]/preceding::select[1]</value>
+      <webElementGuid>caeac003-06fc-4b34-8bc4-d10674dc5ec3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lain-lain'])[2]/preceding::select[2]</value>
+      <webElementGuid>fbab0848-52f5-49a3-8c13-a0950b1323d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/select</value>
+      <webElementGuid>9fad005c-c854-4660-97e1-b02477b2359b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$main$ddlakomodasi' and @id = 'main_ddlakomodasi' and (text() = '
+	- Select One -
+	Hotel
+	Kost
+	Lainnya
+
+' or . = '
+	- Select One -
+	Hotel
+	Kost
+	Lainnya
+
+')]</value>
+      <webElementGuid>9655cb4a-b4b8-4a3b-9367-2ccddd1dead3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Keperluan-KunjunganReguler</name>
+   <tag></tag>
+   <elementGuidId>8a2ed56c-9a78-40f4-ba8c-b810fcba02e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[.='Kunjungan Reguler']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>0dfd8c3d-7dc6-488d-9d9c-4d7745e003fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709009821402</value>
+      <webElementGuid>72e67682-9b96-4cc8-8385-c7d254e8fcca</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

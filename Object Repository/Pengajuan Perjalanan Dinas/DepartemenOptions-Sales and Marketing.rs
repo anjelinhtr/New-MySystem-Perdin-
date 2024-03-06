@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DepartemenOptions-Sales and Marketing</name>
+   <tag></tag>
+   <elementGuidId>4ca220cd-eb6d-4693-80c4-4774e71af292</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//option[.='Sales &amp; Marketing']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>xpath1709008914825</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>57867768-0903-4095-9be3-e2fca9dd4648</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1709008914825</value>
+      <webElementGuid>0b35f867-40f7-415d-bf24-9cdfb9577b5d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

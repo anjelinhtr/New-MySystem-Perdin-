@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Pengganti</name>
+   <tag></tag>
+   <elementGuidId>21282404-fed3-4554-a0a0-7349e48ab210</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#main_ddlPengganti</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='main_ddlPengganti']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>25a06e24-67c0-4655-a93b-b2e32d664290</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>ctl00$main$ddlPengganti</value>
+      <webElementGuid>f017c21b-02cc-4da7-a1ac-69580118a163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>main_ddlPengganti</value>
+      <webElementGuid>7ffb4c77-8b7a-4f92-a467-40f4947be178</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>2247a07a-a559-4160-95f4-9f567901880f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+	- Select One - 
+	Iya
+	Tidak
+
+</value>
+      <webElementGuid>2ea3a861-6a1f-4007-9cfd-b96709793ef3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main_ddlPengganti&quot;)</value>
+      <webElementGuid>2d22e37e-6160-4b7d-ac6f-f97fa26d68aa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='main_ddlPengganti']</value>
+      <webElementGuid>9bf7e501-e22e-42fd-ade8-d2fe935d8b70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form2']/div[3]/div[3]/div/section[2]/div/div[2]/div[2]/div/div[4]/div/select</value>
+      <webElementGuid>8d074674-e836-4c5a-9639-1a912d353917</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengganti'])[1]/following::select[1]</value>
+      <webElementGuid>46c30578-d3e4-49d8-9616-e1a2e0fc7f09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BBM/KM'])[1]/following::select[2]</value>
+      <webElementGuid>41bda6fe-8fef-45e2-95f9-9e8569ff3ab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jabatan/Grade'])[1]/preceding::select[1]</value>
+      <webElementGuid>bccd87ab-e635-43e7-a65d-b09934e351b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/select</value>
+      <webElementGuid>1b9ee057-d558-4bf5-afe6-455f5742b41e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'ctl00$main$ddlPengganti' and @id = 'main_ddlPengganti' and (text() = '
+	- Select One - 
+	Iya
+	Tidak
+
+' or . = '
+	- Select One - 
+	Iya
+	Tidak
+
+')]</value>
+      <webElementGuid>9c0a81d6-dfac-4923-8096-72cc82b6165b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
