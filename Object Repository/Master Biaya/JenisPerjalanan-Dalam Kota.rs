@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>JenisPerjalanan-DalamKota</name>
+   <name>JenisPerjalanan-Dalam Kota</name>
    <tag></tag>
    <elementGuidId>20447682-42e5-4de8-aac2-28fa102b72c2</elementGuidId>
    <selectorCollection>

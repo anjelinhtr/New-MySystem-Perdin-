@@ -18,107 +18,74 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 TestData masterbiaya = findTestData('Data Files/Perdin/Master Biaya')
-
 for (int baris = 1; baris <= masterbiaya.getRowNumbers(); baris++)
-{
-	if (masterbiaya.getValue('Use', baris) == 'Yes')
 	{
+		if (masterbiaya.getValue('Use', baris) == 'Yes')
+			{
 	//Master Biaya
 	WebUI.click(findTestObject('Master Biaya/a_Master Biaya'))
-	
 	WebUI.click(findTestObject('Master Biaya/a_Master Biayalbadd'))
 	
 	//Jenis Perjalanan
 	WebUI.click(findTestObject('Master Biaya/JenisPerjalanan'))
-	
-	if (masterbiaya.getValue('Jenis Perjalanan', 1) == 'Luar Kota') {
-	} else if (masterbiaya.getValue('Jenis Perjalanan', 1) == 'Dalam Negeri') {
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/JenisPerjalanan-DalamNegeri'))
-	} else if (masterbiaya.getValue('Jenis Perjalanan', 1) == 'Luar Negeri') {
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/JenisPerjalanan-LuarNegeri'))
-	} else {
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/JenisPerjalanan-DalamKota'))
-	}
-	
+	WebUI.click(findTestObject('Object Repository/Master Biaya/JenisPerjalanan-' + masterbiaya.getValue('Jenis Perjalanan', baris)))
+
 	//Jenis Biaya
 	WebUI.click(findTestObject('Master Biaya/JenisBiaya'))
+	WebUI.click(findTestObject('Object Repository/Master Biaya/Jenis Biaya-' + masterbiaya.getValue('Jenis Biaya', baris)))
 	
-		if (masterbiaya.getValue('Jenis Biaya', 1) == 'Transportasi') 
+	if (masterbiaya.getValue('Jenis Biaya', baris) == 'Transportasi') 
 		{
-			WebUI.click(findTestObject('Object Repository/Master Biaya/Jenis Biaya-Transportasi'))
-	
 			WebUI.click(findTestObject('Object Repository/Master Biaya/BBM'))
+			WebUI.click(findTestObject('Object Repository/Master Biaya/BBM-' + masterbiaya.getValue('BBM', baris)))
+			
+			WebUI.click(findTestObject('Object Repository/Master Biaya/Pengganti'))
+			WebUI.click(findTestObject('Object Repository/Master Biaya/Pengganti-' + masterbiaya.getValue('Pengganti', baris)))
+			}
+			else if (masterbiaya.getValue('Jenis Biaya', 1) == 'Uang Makan') {
+				WebUI.click(findTestObject('Object Repository/Master Biaya/Uang Makan'))
+				WebUI.click(findTestObject('Object Repository/Master Biaya/Uang Makan-' + masterbiaya.getValue('Uang Makan', baris)))
+				} else 
+					{
+						WebUI.click(findTestObject('Object Repository/Master Biaya/Jenis Biaya-Hotel'))
+						WebUI.scrollToElement(findTestObject('Object Repository/Master Biaya/Status-Aktif'), 0)
+						WebUI.click(findTestObject('Object Repository/Master Biaya/Akomodasi_Hotelpermalam'))
+						WebUI.setText(findTestObject('Object Repository/Master Biaya/input__select2-search__field'), '10000')
+						WebUI.click(findTestObject('Object Repository/Master Biaya/li_1000000.00'))
+						}
 	
-	    if (masterbiaya.getValue('BBM', 1) == '1500') {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/BBM-1500'))
-	    } else {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/BBM-1000'))
-	    }
-	    
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/Pengganti'))
-	
-	    if (masterbiaya.getValue('Pengganti', 1) == 'Iya') {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/Pengganti-Iya'))
-	    } else {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/Pengganti-Tidak'))
-	    }
-	} else if (masterbiaya.getValue('Jenis Biaya', 1) == 'Uang Makan') {
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/Jenis Biaya-Uang Makan'))
-	
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/Uang Makan'))
-	
-	    if (masterbiaya.getValue('Uang Makan', 1) == '100%') {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/Uang Makan-100'))
-	    } else if (masterbiaya.getValue('Uang Makan', 1) == '75%') {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/Uang Makan-75'))
-	    } else {
-	        WebUI.click(findTestObject('Object Repository/Master Biaya/Uang Makan-0'))
-	    }
-	} else {
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/Jenis Biaya-Hotel'))
-	
-	    WebUI.scrollToElement(findTestObject('Object Repository/Master Biaya/Status'), 0)
-	
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/Akomodasi_Hotelpermalam'))
-	
-	    WebUI.setText(findTestObject('Object Repository/Master Biaya/input__select2-search__field'), '10000')
-	
-	    WebUI.click(findTestObject('Object Repository/Master Biaya/li_1000000.00'))
-	}
-	
+	//Jabatan
 	if (masterbiaya.getValue('Jabatan', baris) == 'Semua Jabatan')
 		{
-		WebUI.click(findTestObject('Object Repository/Master Biaya/input_JabatanGrade_semua'))
-		}
-		else
-		{
-	
-		WebUI.click(findTestObject('Object Repository/Master Biaya/Jabatan/Jabatan ' + masterbiaya.getValue('Jabatan', baris)))
-		if (masterbiaya.getValue('Jabatan', baris) == 'Manager')
-			{
-				WebUI.click(findTestObject('Object Repository/Master Biaya/input ' + masterbiaya.getValue('Manager', 1)))
-			}
-		}
-		// di edit end
-			
+			WebUI.click(findTestObject('Object Repository/Master Biaya/input_JabatanGrade_semua'))
+			}else
+				{
+					WebUI.click(findTestObject('Object Repository/Master Biaya/Jabatan/Jabatan ' + masterbiaya.getValue('Jabatan', baris)))
+					if (masterbiaya.getValue('Jabatan', baris) == 'Manager')
+						{
+							WebUI.click(findTestObject('Object Repository/Master Biaya/input ' + masterbiaya.getValue('Manager', baris)))
+							}
+							}
+
+		//Lama Perdin	
 	if(masterbiaya.getValue('Lama Perdin',1)== '< 16') {
 		WebUI.click(findTestObject('Object Repository/Master Biaya/input_Lama Perdin_16'))
-	}else if(masterbiaya.getValue('Lama Perdin',1)== '>= 12 <= 16'){
-		WebUI.click(findTestObject('Object Repository/Master Biaya/input_Lama Perdin_12_16'))
-	}else {
-		WebUI.click(findTestObject('Object Repository/Master Biaya/input_Lama Perdin_12'))
-	}
+		}
+		else if(masterbiaya.getValue('Lama Perdin',1)== '>= 12 <= 16'){
+			WebUI.click(findTestObject('Object Repository/Master Biaya/input_Lama Perdin_12_16'))
+			}
+			else{
+				WebUI.click(findTestObject('Object Repository/Master Biaya/input_Lama Perdin_12'))
+				}
 	
-	WebUI.click(findTestObject('Object Repository/Master Biaya/Status'))
-	if(masterbiaya.getValue('Status', 1)== 'Tidak Aktif') {
-		WebUI.click(findTestObject('Object Repository/Master Biaya/Status-Tidak Aktif'))
-	}else {
-		WebUI.click(findTestObject('Object Repository/Master Biaya/Status'))
-	}
+	//Status
+	WebUI.click(findTestObject('Object Repository/Master Biaya/Status-Aktif'))
+	WebUI.click(findTestObject('Object Repository/Master Biaya/Status-' + masterbiaya.getValue('Status', baris)))
+
 	
 	
 	WebUI.scrollToElement(findTestObject('Object Repository/Master Biaya/Button Save Master Biaya'), 0, FailureHandling.STOP_ON_FAILURE)
 	
 	WebUI.click(findTestObject('Object Repository/Master Biaya/Button Save Master Biaya'))
-}
-}
+	}
+	}
